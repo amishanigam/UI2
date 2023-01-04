@@ -1,0 +1,140 @@
+*{
+    margin: 0; padding: 0;
+}
+nav{
+    height: 120px;
+    width: 100vw;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+   height: 100px;
+   width: 250px;
+
+}
+.logo img{
+    height: 100px;
+    width:100% ;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+.list{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.list ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.list ul li{
+    list-style: none;
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+.btn{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.START{
+    width: 250px;
+    height: 50px;
+    list-style: none;
+    font-size: 20px;
+    margin: 25px;
+    background: none;
+    color: white;
+    border: 3px solid rgb(36, 194, 233); 
+}
+.btn img{
+    height: 40px;
+    
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.cont{
+    height: 90vh;
+    width:50%;
+    background-color: rgb(8, 8, 8);
+}
+.box{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(8, 8, 8);
+}
+.box img{
+    height: 70vh;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+h1{
+    margin-left: 230px;
+    margin-top: 150px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+
+}
+p{
+    height: 50px;
+    color: rgb(107, 103, 103);
+    margin-left: 220px;
+    font-size: 22px;
+    margin-top: 50px;
+
+}
+.bi-arrow-right{
+    margin-left: 220px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 60px;
+    color: rgb(107, 103, 103);
+}
+.A{
+    height: 200px;
+    width: 70%;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project{
+    width: 300px;
+    height: 70px;
+    list-style: none;
+    font-size: 22px;
+    margin: 25px;
+    background: none;
+    color: rgb(107, 103, 103);
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border: 3px solid rgb(81, 86, 220);
+}
+.A img{
+    height: 50px
+}
